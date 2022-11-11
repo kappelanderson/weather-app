@@ -12,8 +12,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 30px;
+    height: 100vh;
 }
 body{
     background-image: url("bg.jpg");
@@ -30,4 +31,18 @@ input, button{
 }
 img{
     width: 40px;
+}
+button{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 0 2px;
+}
+.rightcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+button:hover{
+    cursor: pointer;
 }
