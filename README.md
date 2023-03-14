@@ -10,4 +10,5 @@ Search a location for forecast data.
 - API
 - Async Await
 - JSON
+
 Link: https://weatherapp-seven-silk.vercel.app/
